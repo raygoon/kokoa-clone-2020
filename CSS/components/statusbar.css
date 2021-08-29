@@ -1,5 +1,13 @@
+/* body{
+    position: absolute;
+} */
+
 .status-bar{
     display: flex;
+    position: fixed;
+    width:100%;
+    margin-top: calc(-1 * var(--top-status-margin));
+    box-sizing: border-box; 
     justify-content: center;
     padding: 5px 3px;
     font-size: 12px;

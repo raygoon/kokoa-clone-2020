@@ -1,0 +1,38 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    border-top: 1px solid rgb(212, 212, 212);
+    background-color: var(--lightgray);
+    padding: 20px 40px;
+    /* 중요 - 박스 사이즈는 border를 포함한 사이즈로 정의한다라는 뜻. */
+    box-sizing: border-box; 
+    font-size: 15px;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link{
+    position: relative;
+    color: var(--darkgray);
+}
+
+.nav__notification {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+/* 챌린지1 */
+.nav__link-notification{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+}
+

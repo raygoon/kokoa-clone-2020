@@ -1,27 +1,21 @@
+/* 순서가중요 */
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;600&family=Yellowtail&display=swap');
 @import "reset.css";
-@import "statusbar.css";
+@import "variables.css";
+/* Components */
+@import "./components/statusbar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-head.css";
+@import "./components/user-component.css";
+@import "./components/badge.css";
+/* Screens */
+@import "./screens/login.css";
+@import "./screens/friends.css";
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; height: 1200vh;
 }
 
-.Welcome-header {
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600;
-}
-
-.Welcome-header__title{
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-.Welcome-header__text{
-    width: 80%;
-    opacity: 0.7;
-    font-size: 12px;
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
