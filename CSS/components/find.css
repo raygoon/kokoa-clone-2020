@@ -1,5 +1,5 @@
 .find-component {
-    margin: 40px 0px;
+    margin: 55px 0px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 60px 20px;
