@@ -4,8 +4,7 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    justify-content: center;
-    position: absolute;
-    right: -5px;
-    bottom: 130%;
+    position:fixed;
+    margin-left: 22px;
+    transform: translateY(-120%);
 }

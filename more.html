@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,14 +24,30 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <div><i class="fas fa-search fa-lg"></i></div>
+            <div><i class="fas fa-music fa-lg"></i></div>
             <div><div class="notification"></div><i class="fas fa-cog fa-lg"></i></div>
         </div>
     </header>
-
-    <main class="friends-screen">
+    
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://avatars.githubusercontent.com/u/52465535" class="user-component__avatar user-component__avatar" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Raycat</h4>
+                    <h6 class="user-component__subtitle">+82 123-4567-8910</h6>
+                    <i class="fas fa-exclamation-circle" fa-xs></i>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div class="user-component__column-icon">
+                    <i class="far fa-comment-alt fa-2x"></i>
+                </div>
+            </div>
+        </div>
         <div class="find-component">
             <div>
                 <div class="find-icon"><i class="fas fa-qrcode fa-3x"></i></div>
@@ -49,60 +65,59 @@
                 <div class="find-icon"><i class="far fa-envelope fa-3x"></i></div>
                 <div class="find-text"><span>Invite</span></div>
             </div>
-        </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Recommended Friends</span>
-            </div>
-        </div>
-        <div class="user-component">
-            <div class="friends-screen__channel-massage">
-                <h2>You have no Recommended friends.</h2>
-            </div>
-        </div>
-        <div class="friends-screen__channel">
-            <h4 class="user-component__title--not-bold">Open Chat</h4>
-            <div class="find-screen__Openchat-home">
-                <span>Go to Openchat Home</span>
-                <i class="fas fa-chevron-right fa-sm"></i>
-            </div>
-        </div>
-        <div class="open-chat">
-            <div class="open-chat__text">
-                <p>#BTS</p>
-                <p>#BTS#ARMY#FRIENDS</p>
-                <div>
-                    <img class="open-chat__profileimg" src="https://github.com/raygoon/kokoa-clone-2020/blob/main/img/girl01profile.png?raw=true" /><h4>802 members |</h4><span class="open-chat__active-state">Active</span>
-                </div>
+            <div>
+                <div class="find-icon"><i class="far fa-envelope fa-3x"></i></div>
+                <div class="find-text"><span>Invite</span></div>
             </div>
             <div>
-                <img  class="open-chat__image" src="https://github.com/raygoon/kokoa-clone-2020/blob/main/img/butter.png?raw=true" />
+                <div class="find-icon"><i class="far fa-envelope fa-3x"></i></div>
+                <div class="find-text"><span>Invite</span></div>
             </div>
         </div>
-        <div class="open-chat">
-            <div class="open-chat__text">
-                <p>Bts Gang~</p>
-                <p>#englishonly #ipurpleyou #jimin #taeta...</p>
+        <!-- Suggestion -->
+        <div class="More">
+            <div class="More-Suggestion__title">
+                Suggestions
+            </div>
+            <div class="find-component">
                 <div>
-                    <img class="open-chat__profileimg" src="https://github.com/raygoon/kokoa-clone-2020/blob/main/img/girl02profile.png?raw=true" /><h4>299 members |</h4><span class="open-chat__active-state">Active</span>
+                    <div class="find-icon"><i class="fas fa-qrcode fa-3x"></i></div>
+                    <div class="find-text"><span>Kokoa Story</span></div>
+                </div>
+                <div>
+                    <div class="find-icon"><i class="far fa-address-book fa-3x"></i></div>
+                    <div class="find-text"><span>Kokoa friends</span></div>
+                </div>
+                <div>
+                    <div class="find-icon"><i class="far fa-plus-square fa-3x"></i></div>
+                    <div class="find-text"><span>Friends Gem</span></div>
                 </div>
             </div>
-            <div>
-                <img  class="open-chat__image" src="https://github.com/raygoon/kokoa-clone-2020/blob/main/img/dynamite.png?raw=true" />
-            </div>
         </div>
+
+
+
     </main>
     
+
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i>
+                    <i class="fas fa-comment fa-2x"></i>
                 </a>
             </li>
-            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search-plus fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
                     <!-- 챌린지1 -->

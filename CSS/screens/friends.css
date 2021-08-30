@@ -12,11 +12,15 @@
     padding: 0px var(--horizontal-space);
 }
 
+.friends-screen :last-child {
+    border-width: 0px;
+}
+
 .friends-screen__channel {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     color: rgba(0,0,0,0.5);
     padding-top: 15px;
 }

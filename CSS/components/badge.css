@@ -3,9 +3,10 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
     color: white;
     font-weight: 600;
 }
