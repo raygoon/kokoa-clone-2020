@@ -25,14 +25,5 @@
     bottom: 15px;
 }
 
-/* 챌린지1 */
-.nav__link-notification{
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    justify-content: center;
-    position: absolute;
-    right: -5px;
-}
+
 

@@ -1,0 +1,11 @@
+/* 챌린지1 */
+.notification{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+    bottom: 130%;
+}

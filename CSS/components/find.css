@@ -1,0 +1,22 @@
+.find-component {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 22px;
+    justify-content: center;
+}
+
+.find-text {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    line-height: 22px;
+}

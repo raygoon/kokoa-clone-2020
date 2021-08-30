@@ -24,48 +24,48 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
+            <div class="notification"></div>
         </div>
     </header>
-    
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
 
     <main class="friends-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/52465535" class="user-component__avatar user-component__avatar--xl" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Jason</h4>
-                    <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-                </div>
+        <div class="find-component">
+            <div>
+                <div class="find-icon"><i class="fas fa-qrcode fa-3x"></i></div>
+                <div class="find-text"><span>QR Code</span></div>
             </div>
-            <div class="user-component__column"></div>
+            <div>
+                <div class="find-icon"><i class="far fa-address-book fa-3x"></i></div>
+                <div class="find-text"><span>Add by<br>Contacts</span></div>
+            </div>
+            <div>
+                <div class="find-icon"><i class="far fa-plus-square fa-3x"></i></div>
+                <div class="find-text"><span>Add by ID</span></div>
+            </div>
+            <div>
+                <div class="find-icon"><i class="far fa-envelope fa-3x"></i></div>
+                <div class="find-text"><span>Invite</span></div>
+            </div>
         </div>
         <div class="friends-screen__channel">
             <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-sm"></i>
+                <span>Recommended Friends</span>
             </div>
         </div>
         <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/52465535" class="user-component__avatar user-component__avatar--sm" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                </div>
+            <div class="friends-screen__channel-massage">
+                <h2>You have no Recommended friends.</h2>
             </div>
-            <div class="user-component__column">
-                <div>
-                    <!-- 부모클래스의 계층구조참조 영향을 받지 않기 위해 한번더 div로 감싸준다. -->
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-sm"></i>
-                </div>
+        </div>
+        <div class="friends-screen__channel">
+            <h4 class="user-component__title--not-bold">Open Chat</h4>
+            <div class="find-screen__Openchat-home">
+                <span>Go to Openchat Home</span>
+                <i class="fas fa-chevron-right fa-sm"></i>
             </div>
         </div>
     </main>
