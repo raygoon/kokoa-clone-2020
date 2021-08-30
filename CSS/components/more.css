@@ -1,0 +1,8 @@
+.more__component {
+    margin-top: 20px;
+    border-top: var(--grayborder);
+}
+
+.more-suggestion__title {
+    margin-top: 40px;
+}

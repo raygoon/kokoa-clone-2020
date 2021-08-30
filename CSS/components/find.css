@@ -14,11 +14,18 @@
     justify-content: center;
 }
 
+.find-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: -10px;
+}
+
 .find-text {
     display: flex;
     justify-content: center;
     height: 30px;
-    margin-top: 25px;
+    margin-top: 15px;
     align-items: center;
     text-align: center;
     line-height: 22px;
