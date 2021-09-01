@@ -27,7 +27,10 @@
         <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <div><i class="fas fa-search fa-lg"></i></div>
-            <div><div class="notification"></div><i class="far fa-comment-dots fa-lg"></i></div>
+            <div>
+                <i class="far fa-comment-dots fa-lg"></i>
+                <div class="notification"></div>
+            </div>
             <div><i class="fas fa-music fa-lg"></i></div>
             <div><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></div>
         </div>
@@ -38,8 +41,9 @@
             <div class="user-component__column">
                 <img src="https://avatars.githubusercontent.com/u/52465535" class="user-component__avatar user-component__avatar" />
                 <div class="user-component__text">
+                    <a href="conv.html">
                     <h4 class="user-component__title">KoKoaTalk</h4>
-                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
+                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6></a>
                 </div>
             </div>
             <div class="user-component__column">
@@ -72,12 +76,16 @@
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
                     <!-- 챌린지1 -->
-                    <div class="notification"></div>
                     <i class="fas fa-ellipsis-h fa-2x"></i>
+                    <div class="nav-notification"></div>
                 </a>
             </li>
         </ul>
     </nav>
+
+    <div id="no-mobile">
+        <p>Your screen is too big.<br>This page will use for only mobile.</p>
+    </div>
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a3d415a79d.js" crossorigin="anonymous"></script>

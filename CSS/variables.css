@@ -4,6 +4,8 @@
     
     --yellow: #fae100;
     --lightgray: #f1f1f1;
+    --middlegray: #9b9b9bec;
     --darkgray: #3a3a3a;
     --grayborder: 1px solid rgba(0, 0, 0, 0.2);
+    --lightgrayborder: 1px solid rgba(0, 0, 0, 0.1);
 }

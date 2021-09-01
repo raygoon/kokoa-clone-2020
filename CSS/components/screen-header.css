@@ -1,5 +1,6 @@
 .screen-header {
     display: flex;
+    position: fixed;
     margin-top: var(--top-status-margin);
     align-items: center;
     justify-content: space-between;
@@ -7,6 +8,8 @@
     box-sizing: border-box;
     padding: var(--horizontal-space);
     color: var(--darkgray);
+    background-color: white;
+    z-index: 3;
 }
 
 .screen-header__title {
@@ -16,11 +19,19 @@
 
 .screen-header__icons{
     display: flex;
-    position: relative;
+    justify-content: flex-end;
+    width: 33%;
 }
 
 .screen-header__icons >* {
+    width: 25px;
     margin-left: 15px;
     font-size: 15px;
+    position: relative;
+}
+
+.screen-settingicon {
+    font-size: 24px;
+    width: 33%;
 }
 

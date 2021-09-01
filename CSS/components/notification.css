@@ -4,7 +4,17 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    position:fixed;
     margin-left: 22px;
-    transform: translateY(-120%);
+    transform: absolute;
+    transform: translate(-5px, -25px);
+}
+
+.nav-notification{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-left: 22px;
+    transform: absolute;
+    transform: translate(6px, -30px);
 }

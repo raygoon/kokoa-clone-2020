@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversation - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar" id="chat-status">
+        <div class="status-bar__column">
+            <span>No Servise</span>
+            <i class="fas fa-wifi"></i> 
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header" id="chat-header">
+        <div class="screen-settingicon">
+            <a href="chats.html">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
+        <h1 class="screen-header__title">Raycat</h1>
+        <div class="screen-header__icons">
+            <div><i class="fas fa-search fa-lg"></i></div>
+            <div><a href="chats.html"><i class="fas fa-bars fa-lg"></i></a></div>
+        </div>
+    </header>
+    
+    <main class="conv-screen">
+        <div class="conv-screen__date">
+            <span>Tuesday, June 30, 2020</span>
+        </div>
+        <div class="conv-screen__yourchat">
+            <img class="conv-screen__yourimg" src="https://github.com/raygoon/kokoa-clone-2020/blob/main/img/girl02profile.png?raw=true"/>
+            <div>
+                <span class="conv-screen__yourname">Catgirl</span>
+                <div class="conv-screen__yourbubble "><span>Hi!</span></div>
+            </div>
+            <span class="conv-screen__chattime">21:27</span>
+        </div>
+        <div class="conv-screen__mychat">
+            <span class="conv-screen__chattime">21:27</span>
+            <div class="conv-screen__mybubble "><span>Whats Up?</span></div>
+        </div>
+    </main>
+    
+    <!-- 채팅입력폼 -->
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__text">
+            <input class="reply__input" type="text" placeholder="Write a message..."/>
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <p>Your screen is too big.<br>This page will use for only mobile.</p>
+    </div>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a3d415a79d.js" crossorigin="anonymous"></script>
+</body>
+</html>

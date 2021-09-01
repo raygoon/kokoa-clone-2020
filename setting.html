@@ -24,27 +24,69 @@
     </div>
 
     <header class="screen-header">
-        <div> < </div>
+        <div class="screen-settingicon">
+            <a href="javascript:history.back();">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
         <h1 class="screen-header__title">Setting</h1>
         <div class="screen-header__icons">
             <div><i class="fas fa-search fa-lg"></i></div>
         </div>
     </header>
     
-    <main>
-        <div>
-            <div>Notices</div>
-            <div>Kokoa Lab</div>
-            <div>Version</div>
+    <main class="setting-screen">
+        <div class="setting-screen__column">
+            <div class="setting-screen__title">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-flask"></i>
+                <span>Kokoa Lab</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-code-branch"></i>
+                <span>Version</span>
+                <span class="setting-screen__text">Latest Version</span>
+            </div>
         </div>
-        <div>
-            <div>Privacy</div>
-            <div>Notifications</div>
-            <div>Friends</div>
-            <div>Chats</div>
-            <div>Display</div>
-            <div>Themes</div>
-            <div>Call</div>
+        <div class="setting-screen__column">
+            <div class="setting-screen__title">
+                <i class="fas fa-lock"></i>
+                <span>Privacy</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="far fa-bell"></i>
+                <span>Notifications</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-user-friends"></i>
+                <span>Friends</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="far fa-comments"></i>
+                <span>Chats</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-tv"></i>
+                <span>Display</span>
+                <div class="setting-screen__badge-space">
+                    <span class="new-badge">N</span>
+                </div>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span>
+                <div class="setting-screen__badge-space">
+                    <div class="new-badge">N</div>
+                </div>
+                <span class="setting-screen__text">Default theme</span>
+            </div>
+            <div class="setting-screen__title">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call</span>
+            </div>
         </div>
     </main>
     
@@ -61,12 +103,16 @@
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
                     <!-- 챌린지1 -->
-                    <span class="notification"></span>
                     <i class="fas fa-ellipsis-h fa-2x"></i>
+                    <div class="nav-notification"></div>
                 </a>
             </li>
         </ul>
     </nav>
+
+    <div id="no-mobile">
+        <p>Your screen is too big.<br>This page will use for only mobile.</p>
+    </div>
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a3d415a79d.js" crossorigin="anonymous"></script>

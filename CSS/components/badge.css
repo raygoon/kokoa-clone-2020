@@ -10,3 +10,18 @@
     color: white;
     font-weight: 600;
 }
+
+.new-badge{
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}

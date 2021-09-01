@@ -1,0 +1,39 @@
+.setting-screen {
+    margin-top: 80px;
+}
+
+.setting-screen :last-child {
+    border-bottom: none;
+}
+
+.setting-screen__column {
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--grayborder);
+    padding: 0px 20px;
+}
+
+.setting-screen__title {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 35px 25px;
+    font-size: 25px;
+    border-bottom: var(--lightgrayborder);
+}
+
+
+
+.setting-screen__title :nth-child(2) {
+    margin-left: 20px;
+}
+
+.setting-screen__text {
+    width: 100%;
+    color: var(--middlegray);
+    text-align: right;
+}
+
+.setting-screen__badge-space{
+    width: 45px;
+}
